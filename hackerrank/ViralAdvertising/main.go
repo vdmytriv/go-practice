@@ -9,6 +9,8 @@ import (
 	"strings"
 )
 
+// https://www.hackerrank.com/challenges/strange-advertising/problem
+
 // Complete the viralAdvertising function below.
 func viralAdvertising(n int32) int32 {
 	if n == 1 {
