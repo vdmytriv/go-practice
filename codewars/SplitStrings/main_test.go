@@ -1,4 +1,4 @@
-package kata
+package kata_test
 
 import (
 	. "github.com/onsi/ginkgo"
@@ -13,7 +13,8 @@ var _ = Describe("Split Strings", func() {
 	})
 })
 
-// just run go test or package from
+// 1. ginkgo bootstrap will gen suite_test
+// 2. run go test or package from IDE directly
 func Solution(str string) []string {
 	if len(str)%2 != 0 {
 		str += "_"
