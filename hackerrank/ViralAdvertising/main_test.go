@@ -25,3 +25,9 @@ func Test_viralAdvertising(t *testing.T) {
 		})
 	}
 }
+
+func BenchmarkViralAdvertising(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		viralAdvertising(100)
+	}
+}
